@@ -1,0 +1,70 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+.chrome-debug-data
+.browser-use
+.browseruse-config
+.uploads
+.workbuddy
+chrome-junction
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+
+# ===== 构建产物 =====
+
+/dist/
+frontend/dist/
+
+# ===== 运行时数据 =====
+
+logs/
+*.log
+
+
+cloudflare-worker/.tmp-out/*
+
+
+# ===== 敏感 / 用户配置 =====
+
+frontend/.env.local
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+
+# ===== 项目专用排除 =====
+CLAUDE.md
+PRD.md
+*.db
+*.db-journal
+.shared/
+.agent/
+prj.md
+jimeng-api.md
+content_generation.py
+start-e.bat
+docs/
+
+# ===== dreamina2api 排除 =====
+
+# ===== jimeng_service 排除 =====
+
+.ace-tool/
+.cache/
+.browsers/
+
